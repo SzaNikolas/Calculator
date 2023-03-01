@@ -1,0 +1,118 @@
+.title {
+    display: flex;
+    margin: 35px 0px 0px 0px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    background-color: rgb(240, 255, 255); 
+}
+
+.divCalculatorBody {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 0px 0px;
+    background-color: rgb(240, 255, 255);    
+}
+
+.calculatorBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    height: 490px;
+    width: 350px;
+    background-color: rgb(68, 68, 68);
+}
+
+.divCeButton {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px 0px 0px;
+    width:300px;
+}
+
+.upText {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:rgb(250, 250, 250);
+}
+
+.buttonCe {
+    border-width: 2px;
+    border-radius: 20%;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    width:55px;
+    background-color: rgb(255, 123, 0); 
+    border-color: rgb(255, 123, 0); 
+    color:rgb(250, 250, 250);
+}
+
+.divDisplay {
+    font-size: 0px;
+    margin: 15px 0px 15px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.displayNumber {
+    height:75px;
+    width:300px;
+    background-color: rgb(165, 165, 165);
+    font-size: 30px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    line-height: 75px;
+    color:rgb(250, 250, 250);    
+}
+
+.buttonOperator {
+    font-size: 35px;
+    height:75px;
+    width:75px;
+    border-width: 2px;
+    border-color: rgb(255, 123, 0); 
+    border-radius: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 123, 0); 
+    color:rgb(255, 255, 255);
+}
+
+.buttonDecimal,
+.buttonNumber,
+.buttonEqual {
+    font-size: 35px;
+    height:75px;
+    width:75px;
+    border-width: 2px;
+    border-radius: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: rgb(0, 153, 255); 
+    border-color: rgb(0, 153, 255); 
+    color:rgb(255, 255, 255);
+}
+
+
+.firstRowButtons,
+.secondRowButtons,
+.thirdRowButtons,
+.fourthRowButtons {
+    font-size: 0px;
+    display: flex;
+    justify-content: center;
+}
